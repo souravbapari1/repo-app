@@ -1,0 +1,27 @@
+{
+  "name": "@prisma/database",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./init": "./src/init.ts"
+  },
+  "scripts": {
+    "migrate": "bun ./auto/schema.ts && prisma migrate dev --name",
+    "studio": "prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "child_process": "^1.0.2",
+    "prisma": "^6.1.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.10.2"
+  }
+}
