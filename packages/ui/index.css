@@ -1,5 +1,5 @@
 /* src/styles/tailwind.css */
-@import "@sweetalert2/theme-bulma/bulma.scss";
+@import "sweetalert2/src/sweetalert2.scss";
 
 *,
 ::before,
