@@ -6,7 +6,8 @@
   ],
   "exports": {
     "./styles.css": "./index.css",
-    "./button": "./src/button.tsx"
+    "./button": "./src/button.tsx",
+    "./sweetalert": "./src/sweetalert/sweetalert.ts"
   },
   "license": "MIT",
   "scripts": {
@@ -25,5 +26,9 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "sass": "^1.83.0",
+    "sweetalert2": "^11.15.3"
   }
 }
